@@ -1,0 +1,33 @@
+nav {
+  background: #dddddd;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.2rem 3rem;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav .nav-items {
+  margin-left: auto;
+  margin-right: 3rem;
+}
+nav .nav-items ul {
+  display: flex;
+  list-style: none;
+}
+nav .nav-items ul li {
+  display: block;
+  padding: 1rem;
+}
+nav .nav-items ul li:hover {
+  background: #aaaaaa;
+  cursor: pointer;
+}
+
+nav .mobile-nav-items {
+  display: none;
+}
