@@ -63,6 +63,14 @@ nav .mobile-nav-items li:hover {
   width: 100%;
 }
 .content {
+  background: #eeeeee;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.content h2 {
   position: absolute;
   top: 50%;
   left: 50%;
