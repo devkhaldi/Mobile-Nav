@@ -5,8 +5,14 @@ menuImg.onclick = function () {
   if (open == false) {
     open = true
     sideNav.classList.add('open')
-    console.log(open)
   } else {
+    open = false
+    sideNav.classList.remove('open')
+  }
+}
+
+document.querySelector('.content').onclick = () => {
+  if (open == true) {
     open = false
     sideNav.classList.remove('open')
   }
