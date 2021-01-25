@@ -48,6 +48,7 @@ nav .mobile-nav-items {
   width: 15rem;
   background: #fafafa;
   height: 80%;
+  transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 nav .mobile-nav-items li {
   display: block;
@@ -79,5 +80,8 @@ nav .mobile-nav-items li:hover {
   nav img {
     display: block;
     cursor: pointer;
+  }
+  nav .open {
+    left: 0;
   }
 }
