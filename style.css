@@ -6,6 +6,7 @@
 body {
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
+  min-height: 100vh;
 }
 nav {
   background: #fafafa;
@@ -47,7 +48,7 @@ nav .mobile-nav-items {
   left: -15rem;
   width: 15rem;
   background: #fafafa;
-  height: 80%;
+  height: calc(100% - 3.4rem);
   transition: all 0.75s cubic-bezier(0.19, 1, 0.22, 1);
 }
 nav .mobile-nav-items li {
